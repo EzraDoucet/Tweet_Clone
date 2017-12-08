@@ -30,6 +30,27 @@ gem 'jbuilder', '~> 2.5'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
+# *** My Gems ***
+gem 'simple_form'
+gem 'stamp'
+
+# ** StyleSheets **
+gem 'bootstrap', '~> 4.0.0.beta2.1'
+gem 'font-awesome-rails'
+gem 'jquery-rails'
+
+# ** Text Editing **
+gem 'trix'
+
+# ** User Accounts **
+gem 'devise'
+
+# ** Photo Uploads **
+gem 'paperclip', '~> 5.0.0'
+
+# ** Secrets **
+gem 'figaro'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
@@ -39,6 +60,9 @@ group :development, :test do
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
+
+  gem 'pry-byebug'
+  gem 'pry-rails'
 end
 
 group :development do
